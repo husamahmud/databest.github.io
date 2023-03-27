@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ! title -->
+  <title>Databest</title>
+
+  <!-- ! fontawesome css -->
+  <link rel="stylesheet" href="css/all.min.css">
+
+  <!-- ! bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- ! font -->
+  <link rel="stylesheet" type="text/css" href="fonts/HKGrotesk-Regular.otf">
+  <link rel="stylesheet" type="text/css" href="fonts/Archia-Regular.otf">
+
+  <!-- ! animatie on scroll css -->
+  <link rel="stylesheet" href="css/animation-on-scroll.css">
+
+  <!-- ! slider css -->
+  <link rel="stylesheet" href="css/slider.css">
+
+  <!-- ! custom css -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+  <!-- ! background  -->
+  <div class="bg ms-auto me-auto">
+
+    <!-- ! large header -->
+    <nav class="navbar navbar-expand-lg  p-0 d-none d-lg-block">
+      <div class="container py-4">
+
+        <!-- ? left navbar -->
+        <ul class="navbar-nav d-flex gap-4 left">
+          <li class="nav-item btn-effect">
+            <span class="nav-link fs-6">Products</span>
+            <a class="" href="#">Product</a>
+          </li>
+          <li class="nav-item btn-effect">
+            <span class="nav-link fs-6">Resources</span>
+            <a class="" href="#">Resources</a>
+          </li>
+          <li class="nav-item btn-effect">
+            <span class="nav-link fs-6">Support</span>
+            <a class="" href="#">Support</a>
+          </li>
+        </ul>
+
+        <!-- ? brand -->
+        <a class="navbar-brand m-0 fs-2" href="#">DATABEST</a>
+
+        <!-- ? right navbar -->
+        <ul class="navbar-nav d-flex gap-4 right">
+          <li class="nav-item btn-effect">
+            <span class="nav-link fs-6">Company</span>
+            <a class="" href="#">Company</a>
+          </li>
+          <li class="nav-item btn-effect">
+            <span class="nav-link fs-6">Pricing</span>
+            <a class="" href="#">Pricing</a>
+          </li>
+          <li class="nav-item btn-effect connect-btn px-2 rounded-3">
+            <span class="nav-link fs-6 fw-semibold text-light">Connect</span>
+            <a class="fs-6 fw-semibold text-light" href="#">Connect</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ! small header -->
+    <nav class="navbar bg-body-tertiary fixed-top d-block d-lg-none">
+      <div class="container-fluid py-2">
+
+        <!-- ? brand -->
+        <a class="navbar-brand m-0 fs-2" href="#">DATABEST</a>
+
+        <!-- ? toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+
+        <!-- ? mobile navbar -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          
+          <!-- ? button -->
+          <div class="offcanvas-header justify-content-end">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <!-- ? right navbar -->
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 gap-4 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Company</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Resources</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Support</a>
+              </li>
+              <li class="nav-item connect-btn rounded-3">
+                <a class="nav-link fw-semibold text-light text-center" href="#">Connect</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ! hero section -->
+    <section class="hero">
+      <div class="container">
+        <div class="columns d-flex">
+
+          <!-- ? column left -->
+          <div class="col hero-col--1 d-flex">
+
+            <!-- ? hero case -->
+            <div class="hero-case d-flex" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">
+
+              <div class="wrapper d-flex flex-column gap-3">
+
+                <!-- ? puzzle -->
+                <div class="puzzle">
+                  <img src="assets/case-part-03.webp" class="top" alt="">
+                  <img src="assets/case-part-02.svg" class="right" alt="">
+                  <img src="assets/case-part-01.svg" class="left" alt="">
+                </div>
+
+                <!-- ? hero avatars & text -->
+                <div class="avas">
+                  <img src="assets/av-1.webp" alt="">
+                  <img src="assets/av-2.webp" alt="">
+                  <div>
+                    Case <br> Studies <br> <i class="fa-solid fa-arrow-right-long"></i>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ? hero news -->
+              <div class="hero-news d-flex" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1300">
+                <!-- ? logo -->
+                <div class="hero-news-logo"></div>
+                <!-- ? text -->
+                <div class="text">
+                  <p>LATEST NEWS & INSIGHTS</p>
+                  <p>AI Adoption lessons <br> from real life.</p>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+          <!-- ? column middle -->
+          <div class="col hero-col--2">
+
+            <!-- ? background -->
+            <div class="hero-bg">
+              <img src="assets/hero-bg.svg" data-aos="fade-up" data-aos-duration="1000" alt="">
+            </div>
+
+            <!-- ? dashed line -->
+            <div class="dash" data-aos="fade-up">
+              <div class="dash"></div>
+            </div>
+
+            <!-- ? caption -->
+            <div class="caption">
+              <h1>
+                <span class="d-block" data-aos="zoom-in-left" data-aos-delay="200">YOUR BEST</span>
+                <span class="d-block" data-aos="zoom-in-right" data-aos-delay="400">MARKETING & DATA</span>
+                <span class="d-block" data-aos="zoom-in-left" data-aos-delay="600">ANALYSER</span>
+              </h1>
+              <h6 class="d-block" data-aos="fade-up" data-aos-delay="800">CREATED BY</h6>
+
+              <!-- ? button -->
+              <div class="hero-btn" data-aos="fade-up" data-aos-delay="1000">
+                <div class="btn-effect rounded-5">
+                  <span class="fw-bold text-dark">GROW NOW</span>
+                  <a href="#" class="fw-bold text-dark">GROW NOW</a>
+                </div>
+              </div>
+
+            <!-- ? dashed line -->
+            <div class="dash" data-aos="fade-up" data-aos-delay="1100">
+              <div class="dash"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ? column right -->
+          <div class="col hero-col--3 d-flex">
+            
+            <!-- ? modal target -->
+            <div class="modal-target" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1000">
+              <div class="text">
+                <div class="btn-effect">
+                  <span class="text-dark">SEE</span>
+                  <a class="text-dark" href="#">SEE</a>
+                </div>
+                <div class="btn-effect">
+                  <span class="text-dark">HOW IT</span>
+                  <a class="text-dark" href="#">HOW IT</a>
+                </div>
+                <div class="btn-effect">
+                  <span class="text-dark">WORKS</span>
+                  <a class="text-dark" href="#">WORKS</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- ? hero ceo -->
+            <div class="hero-ceo" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1300">
+              <img src="assets/hero-av.webp" alt="">
+              <div class="info">
+                <p class="fw-bold mb-0 mt-2 fs-6">SED PERFERENDIS</p>
+                <p class="mt-0 mb-0 text-body-tertiary">CEO & FOUNDER</p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ! about section -->
+    <section class="about">
+      <div class="container">
+
+        <!-- ? columns -->
+        <div class="columns d-flex">
+
+          <!-- ? col -->
+          <div class="col about-col--1">
+
+            <!-- ? image -->
+            <div data-aos="fade-right" data-aos-duration="1000">
+              <img src="assets/about-img.webp" alt="">
+            </div>
+          </div>
+
+          <!-- ? col -->
+          <div class="col about-col--2 d-flex">
+
+            <!-- ? shapes -->
+            <div class="shapes d-flex">
+              <div data-aos="fade-left" data-aos-duration="1000"></div>
+              <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300"></div>
+            </div>
+
+            <!-- ? caption -->
+            <div class="caption" data-aos="fade-left" data-aos-duration="1000">
+              <p>
+                <span class="d-none d-lg-inline-block">---------------------</span>
+                <span>DATABEST </span>
+                - is unique powerful artificial intelligence. It works with marketing data, makes analyzes, and provides precise results.
+              </p>
+            </div>
+
+            <!-- ? caption column -->
+            <div class="caption-col">
+              <p data-aos="fade-left" data-aos-duration="1000">Just a few years ago, marketing and analytics were considered an innovation, and a great optional addition to the agency’s toolbox. Now we provide the whole possibilities to take the whole spectrum of data. It’s easy to use, cause</p>
+              <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">with the Databest you will have the patterns, emotions, and main empathy points users needs. This platform analyzes data and get you a clear vision of own user. It helps get the best out of any ads and people for any product.</p>
+            </div>
+
+          </div>
+        </div>
+        
+        <!-- ? about advantages -->
+        <div class="about-adv">
+
+          <!-- ? statisticss -->
+          <div class="col mod-about mod-first" data-aos="fade-left">
+            <div class="dash-top"></div>
+            <!-- ? avatars -->
+            <div class="avas">
+
+              <!-- ? avatars -->
+              <img src="assets/av-3.webp" alt="">
+              <img src="assets/av-4.webp" alt="">
+              <img src="assets/av-5.webp" alt="">
+
+              <!-- ? caption -->
+              <div>
+                Our Team <br>
+                Work With <br>
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col mod-about" data-aos="fade-left">
+            <div class="dash-top"></div>
+            <div class="dash-left"></div>
+            <div class="text">
+              <div class="num"><span>44</span></div>
+              <div class="desc">COUNTRIES</div>
+            </div>
+          </div>
+          <div class="col mod-about" data-aos="fade-left">
+            <div class="dash-top"></div>
+            <div class="dash-left"></div>
+            <div class="text">
+              <div class="num"><span>32</span></div>
+              <div class="desc">BUSINESS AREAS</div>
+            </div>
+          </div>
+          <div class="col mod-about" data-aos="fade-left">
+            <div class="dash-top"></div>
+            <div class="dash-left"></div>
+            <div class="text">
+              <div class="num"><span>500</span>+</div>
+              <div class="desc">TBYTE DATA</div>
+            </div>
+          </div>
+          <div class="col mod-about" data-aos="fade-left">
+            <div class="dash-top"></div>
+            <div class="dash-left"></div>
+            <div class="text">
+              <div class="num"><span>81</span>+</div>
+              <div class="desc">LANGUAGES</div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ! video section -->
+    <section class="video">
+      <div class="container">
+        <div class="vid">
+          <video src="assets/video.mp4" autoplay loop muted></video>
+        </div>
+        <div class="text">
+          <h1>
+            <span class="d-block" data-aos="zoom-in-left" data-aos-delay="200">USE A CUSTOM</span>
+            <span class="d-block" data-aos="zoom-in-right" data-aos-delay="400">FORMULA FOR YOUR</span>
+            <span class="d-block" data-aos="zoom-in-left" data-aos-delay="600">OWN MARKETING</span>
+            <span class="d-block" data-aos="zoom-in-left" data-aos-delay="800">SUCCESS</span>
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- ! efficiency section -->
+    <section class="efficiency">
+      <div class="container d-flex">
+
+        <!-- ? column 1 -->
+        <div class="col col--1">
+
+          <!-- ? info button -->
+          <div class="circle-btn" data-aos="zoom-in-left" data-aos-delay="500">
+            <div class="text">
+              <div class="btn-effect">
+                <span class="text-dark">SEE</span>
+                <a class="text-dark" href="#">SEE</a>
+              </div>
+              <div class="btn-effect">
+                <span class="text-dark">HOW IT</span>
+                <a class="text-dark" href="#">HOW IT</a>
+              </div>
+              <div class="btn-effect">
+                <span class="text-dark">WORKS</span>
+                <a class="text-dark" href="#">WORKS</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- ? circle 1 -->
+          <div class="circle-1 circle" data-aos="zoom-in-right" data-aos-delay="500">
+            <div class="text">
+              <span>1200+</span>
+              <span>TERABYTES <br>
+                OF DATA</span>
+              </div>
+          </div>
+
+          <!-- ? circle 2 -->
+          <div class="circle-2 circle" data-aos="zoom-in-right" data-aos-delay="600">
+            <div class="text">
+              <span>+98%</span>
+              <span>CORRECTNESS <br>
+                DATA</span>
+              </div>
+          </div>
+
+          <!-- ? circle 3 -->
+          <div class="circle-3 circle" data-aos="zoom-in-left" data-aos-delay="600">
+            <div class="text">
+              <span>-37%</span>
+              <span> CAMPAING <br>
+                COST
+              </span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ? column 2 -->
+        <div class="col col--2">
+          <div class="caption" data-aos="fade-left" data-aos-duration="1000">
+
+            <!-- ? text -->
+            <p>
+              <span class="d-none d-lg-inline-block">--------------------- </span>
+              <span> EFFICIENCY </span>
+              - is a key due to the power of AI, algorithm has a lot of ways to help business to achieve any goals and data results.
+            </p>
+
+            <!-- ? description -->
+            <div class="desc">
+              <div class="col" data-aos="fade-left" data-aos-duration="1000">
+                We support our clients and help them define the problems to set up the Databest in a better solution way. The more information you give the greatest result you have.
+              </div>
+              <div class="col" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                Our analyzer technology is so young but doesn't have any competitors. We already have a lot of cases and numbers we are proud of. And some of them are able here.
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ! team section -->
+    <section class="team">
+      <div class="container">
+        <div class="swiper team-slider">
+          <!-- ? swiper wrapper -->
+          <div class="swiper-wrapper">
+
+            <!-- ? slide start -->
+            <div class="swiper-slide team-slide">
+              
+              <!-- ? image -->
+              <div class="team-slide-img">
+                <img src="assets/team-1.webp" alt="">
+              </div>
+
+              <!-- ? description -->
+              <div class="team-slide-des">
+                <h5 class="av-name">Guy Hawkins</h5>
+                <h6 class="av-des">CEO & Founder of Databest</h6>
+              </div>
+            </div>
+            <!-- slide end -->
+
+            <!-- ? slide start -->
+            <div class="swiper-slide team-slide">
+              
+              <!-- ? image -->
+              <div class="team-slide-img">
+                <img src="assets/team-2.webp" alt="">
+              </div>
+
+              <!-- ? description -->
+              <div class="team-slide-des">
+                <h5 class="av-name">Albert Flores</h5>
+                <h6 class="av-des">Creator & Developer</h6>
+              </div>
+            </div>
+            <!-- slide end -->
+
+            <!-- ? slide start -->
+            <div class="swiper-slide team-slide">
+              
+              <!-- ? image -->
+              <div class="team-slide-img">
+                <img src="assets/team-3.webp" alt="">
+              </div>
+
+              <!-- ? description -->
+              <div class="team-slide-des">
+                <h5 class="av-name">Jane Cooper</h5>
+                <h6 class="av-des">CO-Founder & Head of Marketing</h6>
+              </div>
+            </div>
+            <!-- slide end -->
+            
+            <!-- ? slide start -->
+            <div class="swiper-slide team-slide">
+              
+              <!-- ? image -->
+              <div class="team-slide-img">
+                <img src="assets/team-4.webp" alt="">
+              </div>
+
+              <!-- ? description -->
+              <div class="team-slide-des">
+                <h5 class="av-name">Esther Howard</h5>
+                <h6 class="av-des">Head of Digital Advertisement</h6>
+              </div>
+            </div>
+            <!-- slide end -->
+
+            <!-- ? slide start -->
+            <div class="swiper-slide team-slide">
+              
+              <!-- ? image -->
+              <div class="team-slide-img">
+                <img src="assets/team-5.webp" alt="">
+              </div>
+
+              <!-- ? description -->
+              <div class="team-slide-des">
+                <h5 class="av-name">Alan Wilson</h5>
+                <h6 class="av-des">Director of Databest</h6>
+              </div>
+            </div>
+            <!-- slide end -->
+
+            <!-- ? slide start -->
+            <div class="swiper-slide team-slide">
+              
+              <!-- ? image -->
+              <div class="team-slide-img">
+                <img src="assets/team-6.webp" alt="">
+              </div>
+
+              <!-- ? description -->
+              <div class="team-slide-des">
+                <h5 class="av-name">Ronald Richards</h5>
+                <h6 class="av-des">Developer of support part</h6>
+              </div>
+            </div>
+            <!-- slide end -->
+
+            <!-- ? slide start -->
+            <div class="swiper-slide team-slide">
+              
+              <!-- ? image -->
+              <div class="team-slide-img">
+                <img src="assets/team-7.webp" alt="">
+              </div>
+
+              <!-- ? description -->
+              <div class="team-slide-des">
+                <h5 class="av-name">Kathryn Murphy</h5>
+                <h6 class="av-des">HR Manager</h6>
+              </div>
+            </div>
+            <!-- slide end -->
+
+            <!-- ? slide start -->
+            <div class="swiper-slide team-slide">
+              
+              <!-- ? image -->
+              <div class="team-slide-img">
+                <img src="assets/team-8.webp" alt="">
+              </div>
+
+              <!-- ? description -->
+              <div class="team-slide-des">
+                <h5 class="av-name">Theresa Webb</h5>
+                <h6 class="av-des">Social Media Consultant</h6>
+              </div>
+            </div>
+            <!-- slide end -->
+
+          </div>
+
+          <div class="team-slider-control">
+            <div class="swiper-pagination"></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ! gallery section -->
+    <section class="gallery">
+      <div class="container">
+
+          <!-- ? row 1 -->
+        <div class="first-solution d-flex">
+
+          <!-- ? column 1 -->
+          <div class="col col--1" data-aos="fade-right">
+            <p>
+              We are helping brands to begin a new life in the digital era and leave competitors
+            </p>
+          </div>
+
+          <div class="col col--2 d-flex" data-aos="fade-left">
+            <p>This is a complete solution, with marketing strategy, and recommendations for budgets, and creatives.</p>
+            
+            <!-- ? button -->
+            <div class="btn-effect" data-aos="fade-left" data-aos-delay="300">
+              <span class="nav-link fs-6">Go</span>
+              <a class="#" href="#">Go</a>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- ? row 2 -->
+        <div class="solution">
+          <div class="text">
+            <div class="large-text" data-aos="fade-right">
+
+              <!-- ? button -->
+              <div class="btn-effect">
+                <span class="text-dark">Reclaim Creative Co</span>
+                <a class="" href="#">Reclaim Creative Co</a>
+              </div>
+            </div>
+
+            <!-- ? small text -->
+            <div class="small-text" data-aos="fade-left">CREATIVE & OPTIMIZATION</div>
+
+          </div>
+        </div>
+
+        <!-- ? row 3 -->
+        <div class="solution">
+          <div class="text">
+            <div class="large-text" data-aos="fade-right">
+              <div class="btn-effect">
+                <span class="text-dark">BigBlaze Corporation</span>
+                <a class="">BigBlaze Corporation</a>
+              </div>
+            </div>
+            <div class="small-text" data-aos="fade-left">
+              FULL MARKETING SOULTION
+            </div>
+          </div>
+        </div>
+
+        <!-- ? row 4 -->
+        <div class="solution">
+          <div class="text">
+            <div class="large-text" data-aos="fade-right">
+              <div class="btn-effect">
+                <span class="text-dark">Neotel & RED Word</span>
+                <a class="">Neotel & RED Word</a>
+              </div>
+            </div>
+            <div class="small-text" data-aos="fade-left">
+              ANALYSIS & AUDIT
+            </div>
+          </div>
+        </div>
+
+        <!-- ? row 5 -->
+        <div class="solution">
+          <div class="text">
+            <div class="large-text" data-aos="fade-right">
+              <div class="btn-effect">
+                <span class="text-dark">Olliveri Studio</span>
+                <a class="">Olliveri Studio</a>
+              </div>
+            </div>
+            <div class="small-text" data-aos="fade-left">
+              CREATIVE & OPTIMIZATION
+            </div>
+          </div>
+        </div>
+
+        <!-- ? row 6 -->
+        <div class="solution">
+          <div class="text">
+            <div class="large-text" data-aos="fade-right">
+              <div class="btn-effect">
+                <span class="text-dark">Greezely Brand Store</span>
+                <a class="">Greezely Brand Store</a>
+              </div>
+            </div>
+            <div class="small-text" data-aos="fade-left">
+              FULL MARKETING SOULTION
+            </div>
+          </div>
+        </div>
+      
+      </div>
+    </section>
+
+    <!-- ! footer section -->
+    <section class="footer">
+      <div class="container d-flex">
+
+        <!-- ? emails -->
+        <div class="col email">
+          <div class="map">
+
+            <!-- ? header -->
+            <h5>Website map</h5>
+
+            <!-- ? links -->
+            <div class="links">
+              <div class="btn-effect">
+                <span class="text-dark">Products</span>
+                <a class="">Products</a>
+              </div>
+              <div class="btn-effect">
+                <span class="text-dark">Resources</span>
+                <a class="">Resources</a>
+              </div>
+              <div class="btn-effect">
+                <span class="text-dark">Support</span>
+                <a class="">Support</a>
+              </div>
+              <div class="btn-effect">
+                <span class="text-dark">Company</span>
+                <a class="">Company</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- ? email input -->
+          <div class="email-input">
+            <h5>Newsletter our</h5>
+            <div class="form d-flex">
+              <div class="form-floating">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div>
+              <button type="submit" class="btn btn-effect rounded-3">
+                <span class="text-dark fw-bold">Go</span>
+                <a class="text-dark fw-bold">Go</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- ? logo -->
+        <div class="col logo">
+
+          <!-- ? text -->
+          <p>Databest - powerful AI expert on processing marketing data</p>
+          
+          <!-- ? footer logo -->
+          <div class="footer-logo"></div>
+          
+          <!-- ? text -->
+          <p>Level up your cases with tons of data</p>
+        </div>
+
+        <!-- ? contacts -->
+        <div class="col contact">
+
+          <div class="contacts-wrapper">
+
+            <!-- ? header -->
+            <h5>Contacts</h5>
+
+            <div class="contacts">
+
+              <!-- ? phone number -->
+              <div class="btn-effect">
+                <span class="text-dark">+4 8495 342 9234</span>
+                <a href="tel:123-456-7890">+4 8495 342 9234</a>
+              </div>
+
+              <!-- ? website link -->
+              <div class="btn-effect">
+                <span class="text-dark">www.databest.com</span>
+                <a class="">www.databest.com</a>
+              </div>
+
+              <!-- ? mail -->
+              <div class="btn-effect">
+                <span class="text-dark">mail@data-best.com</span>
+                <a href="mailto:mail@data-best.com">mail@data-best.com</a>
+              </div>
+
+              <!-- ? location -->
+              <div class="btn-effect">
+                <span class="text-dark">United states</span>
+                <a href="geo:latitude,longitude?q=United states">United states</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- ? social media icons -->
+          <div class="social">
+
+            <!-- ? facebook icon -->
+            <div class="btn-effect">
+              <span class="text-dark">
+                <i class="fa-brands fa-facebook-f fa-xl"></i>
+              </span>
+              <a href="#">
+                <i class="fa-brands fa-facebook-f fa-lg"></i>
+              </a>
+            </div>
+
+            <!-- ? behance icon -->
+            <div class="btn-effect">
+              <span class="text-dark">
+                <i class="fa-brands fa-behance fa-lg"></i>
+              </span>
+              <a href="#">
+                <i class="fa-brands fa-behance fa-lg"></i>
+              </a>
+            </div>
+
+            <!-- ? linkedin icon -->
+            <div class="btn-effect">
+              <span class="text-dark">
+                <i class="fa-brands fa-linkedin-in fa-lg"></i>
+              </span>
+              <a href="#">
+                <i class="fa-brands fa-linkedin-in fa-lg"></i>
+              </a>
+            </div>
+            
+            <!-- ? instagram icon -->
+            <div class="btn-effect">
+              <span class="text-dark">
+                <i class="fa-brands fa-instagram fa-lg"></i>
+              </span>
+              <a href="#">
+                <i class="fa-brands fa-instagram fa-lg"></i>
+              </a>
+            </div>
+
+            <!-- ? dribbble icon -->
+            <div class="btn-effect">
+              <span class="text-dark">
+                <i class="fa-brands fa-dribbble fa-lg"></i>
+              </span>
+              <a href="#">
+                <i class="fa-brands fa-dribbble fa-lg"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ! fontawesome js -->
+  <script src="js/all.min.js"></script>
+  
+  <!-- ! bootstrap js -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <!-- ! animatie on scroll js -->
+  <script src="js/animation-on-scroll.js"></script>
+
+  <!-- ! slider js -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+  <!-- ! custom js -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
